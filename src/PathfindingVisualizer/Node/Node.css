@@ -1,0 +1,26 @@
+.node {
+    width: 25px;
+    height: 25px;
+    outline: 1px solid rgb(144, 184, 214);
+    display: inline-block;
+}
+
+.node-finish {
+    background-color: orange;
+}
+
+.node-start {
+    background-color: greenyellow;
+}
+
+.node-wall {
+    background-color: rgb(23, 32, 32);
+}
+
+.node-visited {
+    background-color: rgb(119, 121, 115);
+}
+
+.node-shortest-path {
+    background-color: rgb(103, 104, 101);
+}
